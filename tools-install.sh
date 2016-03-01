@@ -30,7 +30,7 @@ if [[ ! -d ~/WF-Cloudify ]]; then
    wget -O ~/temp-install/cloudify-install.sh https://github.com/WorkflowCenter-Repositories/ToolsInstallationScripts/raw/master/cloudify-install.sh
   fi
    chmod u+x ~/temp-install/cloudify-install.sh
-   . . ~/temp-install/cloudify-install.sh
+   . ~/temp-install/cloudify-install.sh
 else 
    source ~/WF-Cloudify/bin/activate
 fi

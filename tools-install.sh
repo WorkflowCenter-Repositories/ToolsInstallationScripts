@@ -19,7 +19,7 @@ if [[ -z ${Dock} ]]; then
       wget -O ~/temp-install/docker-installation.sh https://github.com/WorkflowCenter-Repositories/ToolsInstallationScripts/raw/master/docker-installation.sh
       chmod u+x ~/temp-install/docker-installation.sh
    fi
-   . ~/temp-install/docker-installation.sh
+   sh $HOME/temp-install/docker-installation.sh
 fi
 
 #Cloudify configuration and installation
